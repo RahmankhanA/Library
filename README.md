@@ -15,7 +15,16 @@ Go to the project directory
 ```bash
   cd Library
 ```
+Create Virtual Environment by using this command
 
+```bash
+  python -m venv Environment_name
+```
+Activate Virtual Environment by using this command
+
+```bash
+   Environment_name\Scripts\sctivate.bat
+```
 Install dependencies  Python must be installed 
 
 ```bash
@@ -24,16 +33,16 @@ Install dependencies  Python must be installed
 
 Start the server
     
-    On Windows
+On Windows
 ```bash
   py manage.py runserver
 ```
-     OR 
+OR 
 
 ```bash
   python manage.py runserver
 ```
-    On Linux
+On Linux
 
 ```bash
   python3 manage.py runserver
@@ -41,7 +50,7 @@ Start the server
     
 
 
-    After that you could see that this project will start running on the 
+After that you could see that this project will start running on the 
 
     localhost:8000
     
